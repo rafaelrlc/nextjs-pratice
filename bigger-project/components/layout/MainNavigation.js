@@ -4,7 +4,9 @@ import Link from "next/link";
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>React Meetups</div>
+      <Link className={classes.logo} href="/">
+        React Meetups
+      </Link>
       <nav>
         <ul>
           <li>
