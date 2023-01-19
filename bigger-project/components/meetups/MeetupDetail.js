@@ -1,8 +1,8 @@
-import classes from "./MeetupDetail.module.css";
+import styles from "./MeetupDetail.module.css";
 
 function MeetupDetail(props) {
   return (
-    <section className={classes.detail}>
+    <section className={styles.detail}>
       <img src={props.image} alt={props.title} />
       <h1>{props.title}</h1>
       <address>{props.address}</address>
